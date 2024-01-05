@@ -1,0 +1,38 @@
+# .gitignore para um projeto Django
+
+# Arquivos e diretórios específicos do Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração locais
+.env
+venv/
+*.env
+
+# Arquivos de log
+logs/
+*.log
+
+# Arquivos e diretórios de mídia
+media/
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente e configuração pessoal
+.env.local
+.env.dev
+.env.prod
+
+# Dependências e diretórios de instalação
+node_modules/
+__pycache__/
+
